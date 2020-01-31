@@ -3,9 +3,9 @@ public class Produce extends Item {
 	private double totalCost;
 	private int weight;
 	
-	public Produce(int q, double up, String t, int w) {
+	public Produce(int q, double up, String t) {
 		super(q,up,t);
-		weight=w;
+		//weight=w;
 		
 		setTotalPrice(up,weight);
 		
